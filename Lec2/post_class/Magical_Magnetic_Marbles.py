@@ -15,7 +15,7 @@ def Magical_Magnetic_Marbles(n, k, slots):
             amount = 0
         else: # slot = 0
             amount += 1
-
+    
     if groups:
         groups = sorted(groups)
         for group in groups:

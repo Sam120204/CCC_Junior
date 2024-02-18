@@ -16,8 +16,6 @@ def check_has_tree(in_size, in_row, in_col):
         if in_row <= tree[0] <= in_row + in_size - 1 and in_col <= tree[1] <= in_col + in_size - 1:
             return True
     return False   
-    
-
 
 def check(in_size, in_row, in_col):
     has_trees = check_has_tree(in_size, in_row, in_col)
@@ -32,7 +30,6 @@ def check(in_size, in_row, in_col):
         in_row += 1
         in_col = 0
     return False
-
 
 
 success = check(pool_size, 0, 0) # start from [0][0]
