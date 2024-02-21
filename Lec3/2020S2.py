@@ -31,7 +31,6 @@ def escapeRoom_dfs(row, col, grid):
     return res
     
 
-
   
 if __name__ == "__main__":
     # grid = [[3 ,10 ,8 , 14],
